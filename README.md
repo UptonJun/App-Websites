@@ -12,10 +12,12 @@ https://uptonjun.github.io/App-Websites/
 
 | App | Purpose | URL |
 |---|---|---|
-| Ordio | Overview | https://uptonjun.github.io/App-Websites/ordio/ |
-| Ordio | Support | https://uptonjun.github.io/App-Websites/ordio/support/ |
-| Ordio | Privacy Policy | https://uptonjun.github.io/App-Websites/ordio/privacy/ |
-| Ordio | Terms of Use | https://uptonjun.github.io/App-Websites/ordio/terms/ |
+| CentsCove | Overview | https://uptonjun.github.io/App-Websites/ordio/ |
+| CentsCove | Support | https://uptonjun.github.io/App-Websites/ordio/support/ |
+| CentsCove | Privacy Policy | https://uptonjun.github.io/App-Websites/ordio/privacy/ |
+| CentsCove | Terms of Use | https://uptonjun.github.io/App-Websites/ordio/terms/ |
+
+The directory slug remains `ordio/` so existing app links, App Store Connect fields, and printed URLs stay valid. Only the visible brand name changed to CentsCove.
 
 Use these values in App Store Connect:
 
