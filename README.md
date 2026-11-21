@@ -12,12 +12,12 @@ https://uptonjun.github.io/App-Websites/
 
 | App | Purpose | URL |
 |---|---|---|
-| CentsCove | Overview | https://uptonjun.github.io/App-Websites/ordio/ |
-| CentsCove | Support | https://uptonjun.github.io/App-Websites/ordio/support/ |
-| CentsCove | Privacy Policy | https://uptonjun.github.io/App-Websites/ordio/privacy/ |
-| CentsCove | Terms of Use | https://uptonjun.github.io/App-Websites/ordio/terms/ |
+| Notebook Short | Overview | https://uptonjun.github.io/App-Websites/ordio/ |
+| Notebook Short | Support | https://uptonjun.github.io/App-Websites/ordio/support/ |
+| Notebook Short | Privacy Policy | https://uptonjun.github.io/App-Websites/ordio/privacy/ |
+| Notebook Short | Terms of Use | https://uptonjun.github.io/App-Websites/ordio/terms/ |
 
-The directory slug remains `ordio/` so existing app links, App Store Connect fields, and printed URLs stay valid. Only the visible brand name changed to CentsCove.
+The directory slug remains `ordio/` so existing app links, App Store Connect fields, and printed URLs stay valid. Only the visible brand name changed to Notebook Short (formerly CentsCove, originally Ordio).
 
 Use these values in App Store Connect:
 
