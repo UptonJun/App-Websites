@@ -17,9 +17,9 @@ https://uptonjun.github.io/App-Websites/
 | Notebook Short | Privacy Policy | https://uptonjun.github.io/App-Websites/ordio/privacy/ |
 | Notebook Short | Terms of Use | https://uptonjun.github.io/App-Websites/ordio/terms/ |
 | ShortGB | Overview | https://uptonjun.github.io/App-Websites/shortgb/ |
-| ShortGB | Support | https://uptonjun.github.io/App-Websites/shortgb/support/ |
-| ShortGB | Privacy Policy | https://uptonjun.github.io/App-Websites/shortgb/privacy/ |
-| ShortGB | Terms of Use | https://uptonjun.github.io/App-Websites/shortgb/terms/ |
+| ShortGB | Support | https://uptonjun.github.io/App-Websites/shortgb/support.html |
+| ShortGB | Privacy Policy | https://uptonjun.github.io/App-Websites/shortgb/privacy.html |
+| ShortGB | Terms of Use | https://uptonjun.github.io/App-Websites/shortgb/terms.html |
 
 The directory slug remains `ordio/` so existing app links, App Store Connect fields, and printed URLs stay valid. Only the visible brand name changed to Notebook Short (formerly CentsCove, originally Ordio).
 
@@ -31,9 +31,9 @@ Use these values in App Store Connect:
 
 For ShortGB, use:
 
-- **Support URL:** `https://uptonjun.github.io/App-Websites/shortgb/support/`
-- **Privacy Policy URL:** `https://uptonjun.github.io/App-Websites/shortgb/privacy/`
-- **Terms URL (marketing/optional):** `https://uptonjun.github.io/App-Websites/shortgb/terms/`
+- **Support URL:** `https://uptonjun.github.io/App-Websites/shortgb/support.html`
+- **Privacy Policy URL:** `https://uptonjun.github.io/App-Websites/shortgb/privacy.html`
+- **Terms URL (marketing/optional):** `https://uptonjun.github.io/App-Websites/shortgb/terms.html`
 
 ## Repository layout
 
@@ -49,16 +49,16 @@ For ShortGB, use:
 │   └── assets/icon-256.png
 ├── shortgb/
 │   ├── index.html             # App landing page
-│   ├── support/index.html
-│   ├── privacy/index.html
-│   ├── terms/index.html
+│   ├── support.html
+│   ├── privacy.html
+│   ├── terms.html
 │   └── assets/
 │       ├── site.css            # Self-contained copy for deployment
 │       └── icon-256.png
 └── .nojekyll                  # Serve files as-is
 ```
 
-Every app gets a directory under the repository root with the same four pages and the shared `assets/site.css`.
+Every app gets a directory under the repository root with the same four pages. Notebook Short uses the shared `assets/site.css`; ShortGB is self-contained under `shortgb/assets/` and uses flat `.html` pages so it works on object storage without per-directory index support.
 
 ## GitHub Pages setup
 
