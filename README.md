@@ -52,7 +52,9 @@ For ShortGB, use:
 │   ├── support/index.html
 │   ├── privacy/index.html
 │   ├── terms/index.html
-│   └── assets/icon-256.png
+│   └── assets/
+│       ├── site.css            # Self-contained copy for deployment
+│       └── icon-256.png
 └── .nojekyll                  # Serve files as-is
 ```
 
